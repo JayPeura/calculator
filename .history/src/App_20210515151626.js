@@ -23,33 +23,14 @@ function App() {
         <button onClick={() => setData("")}>Clear</button>
       </div>
 
-    
-      <div className="operations subgrid">
-        <button onClick={e => setData(data + e.target.value)} value="+">+</button>
-        <button onClick={e => setData(data + e.target.value)} value="-">-</button>
-        <button onClick={e => setData(data + e.target.value)} value="*">*</button>
-        <button onClick={e => setData(data + e.target.value)} value="/">/</button>
-        <button onClick={e => {
-          try {
-            setData(
-              String(eval(data)).length > 3 &&
-                String(eval(data)).includes(".")
-                  ? String(eval(data).toFixed(4))
-                    : String(eval(data))
-            );
-          } catch(err) {
-              console.log(err);
-          }
-          
-        }}
-          value="="
-        >=
-
-        </button>
-      </div>
     </div>
 
-    
+      <div className="operations subgrid">
+        <button onClick={e => setData(data + e.target.value)} value="+">+</button>
+        <button onClick={e => setData(data - e.target.value)} value="-">-</button>
+        <button onClick={e => setData(data * e.target.value)} value="*">*</button>
+        <button onClick={e => setData(data / e.target.value)} value="/">/</button>
+      </div>
 
   )
 }

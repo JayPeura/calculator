@@ -26,9 +26,9 @@ function App() {
     
       <div className="operations subgrid">
         <button onClick={e => setData(data + e.target.value)} value="+">+</button>
-        <button onClick={e => setData(data + e.target.value)} value="-">-</button>
-        <button onClick={e => setData(data + e.target.value)} value="*">*</button>
-        <button onClick={e => setData(data + e.target.value)} value="/">/</button>
+        <button onClick={e => setData(data - e.target.value)} value="-">-</button>
+        <button onClick={e => setData(data * e.target.value)} value="*">*</button>
+        <button onClick={e => setData(data / e.target.value)} value="/">/</button>
         <button onClick={e => {
           try {
             setData(
@@ -43,7 +43,7 @@ function App() {
           
         }}
           value="="
-        >=
+        >
 
         </button>
       </div>

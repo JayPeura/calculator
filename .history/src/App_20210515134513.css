@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numbers {
+  width: 240px;
+  height: 240px;
+  background-color: rgb(98, 0, 128);
+
+  display: flex;
+  flex-wrap: wrap;
+}

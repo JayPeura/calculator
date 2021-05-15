@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: rgb(238, 224, 255);
+  justify-content: center;
 }
 .wrapper {
   max-width: 420px;
@@ -48,7 +48,7 @@ button {
   height: 10vh;
   border: 1.5px solid black;
   max-width: 411px;
-  margin-top: 105px;
+  margin-top: 45px;
   background-color: rgb(245, 245, 245);
 }
 .modifiers {

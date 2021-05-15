@@ -43,7 +43,7 @@ function App() {
           
         }}
           value="="
-        >=
+        >
 
         </button>
       </div>

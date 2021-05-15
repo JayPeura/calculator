@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: rgb(238, 224, 255);
 }
 .wrapper {
   max-width: 420px;
@@ -46,10 +45,7 @@ button {
 .show-input {
   grid-area: total;
   height: 10vh;
-  border: 1.5px solid black;
-  max-width: 411px;
-  margin-top: 105px;
-  background-color: rgb(245, 245, 245);
+  border: 2px solid black
 }
 .modifiers {
   grid-area: modif;

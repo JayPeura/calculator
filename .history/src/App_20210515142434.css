@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 400px;
+  margin-top: 200px;
+}
+
+.display {
+  width: 318px;
+  height: 70px;
+  border: 1px solid black;
+  background-color: rgb(210, 175, 255);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 320px;
+  height: 320px;
+}
+
+.leftSide {
+  flex: 75%;
+  height: 100%;
+  background-color: pink;
+}
+
+.rightSide {
+  flex: 25%;
+  height: 100%;
+  background-color: rgb(255, 96, 189);
+}
+
+#clearBtn {
+  background-color: rgb(49, 49, 49);
+  width: 238px;
+  height: 78px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  font-family: helvetica;
+  align-items: center;
+  font-size: 22px;
+  color: whitesmoke;
+}
+
+.numbers {
+  width: 240px;
+  height: 240px;
+  background-color: rgb(98, 0, 128);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#singleNumber, #operations {
+  background-color: rgb(245, 235, 255);
+  width: 78px;
+  height: 78px;
+  font-size: 30px;
+  border: 1px solid black;
+  font-family: helvetica;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#operations {
+  background-color: rgb(199, 25, 25);
+  font-size: 30px;
+  font-family: helvetica;
+
+}
